@@ -2,6 +2,7 @@
 
 <h3>Features</h3>
 <ol>
+  <li>Used Google Map API to load google map and Openweather api to load weather data.</li>
   <li>Get the google map of your city.</li>
   <li>You can add your City name in search bar and get weather information of your city.</li>
   <li>Get weather information of over 7 days.</li>
