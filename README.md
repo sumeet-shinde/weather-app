@@ -14,4 +14,4 @@
 Seach Functionality
 <br/><br/><br/>
 <img src="https://user-images.githubusercontent.com/60615344/169704214-1d1fcd7b-83be-4fde-a27a-318e355817c2.png"/>
-Weather forecast by selecting particular particular day
+Weather forecast by selecting particular day
