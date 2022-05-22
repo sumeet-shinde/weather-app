@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body{
+  background-color: rgb(35,38,40);
+}
+
+.searchDiv{
+  background-color: rgb(23,25,26);
+  height: 100px;
+  margin: -8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cityname{
+  background-color: rgb(40, 45, 48);
+  height: 40px;
+  font-size: 18px;
+  border: 0px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: white;
+  padding-left: 15px;
+}
+
+#cityname:focus {
+  outline: none;
+}
+
+#searchBtn {
+  height: 42px;
+  cursor: pointer;
+  font-size: 20px;
+  color: rgb(85, 85, 85);
+  border: 0;
+  background-color: rgb(40, 45, 48);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.menuDiv{
+  margin: -8px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuDiv>div{
+  border-bottom: 3px solid white;
+  width: 9%;
+}
+
+.menuDiv>div>span{
+  color: white;
+  font-size: 18px;
+  line-height: 45px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.subDiv{
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.weatherDiv{
+  margin-left: 70px;
+  color: white;
+  width: 40%;
+  height: 450px;
+  display: flex;
+  margin-right: 40px;
+}
+
+.tempDiv{
+  width: 40%;
+  border-right: 1px solid white;
+}
+
+.current, .temp{
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.temp{
+  font-size: 80px;
+  margin-left: 50px;
+}
+
+.cel{
+  font-size: 30px;
+}
+
+.detDiv{
+  width: 60%;
+}
+
+.cspan, .minspan, .maxspan, .windspan, .windgustspan, .cloudspan, .humidspan{
+  text-align: right;
+  font-weight: bold;
+}
+
+.detDiv>table{
+  width: 80%;
+  margin: auto;
+  margin-top: 3px;
+}
+
+.detDiv>table,tr,td{
+  line-height: 10px;
+  font-size: 17px;
+}
+
+.detDiv>tr,td{
+  border-bottom: 3px solid rgb(148, 68, 3); 
+}
+
+.mapouter {
+  text-align: right;
+  height: 500px;
+  width: 600px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
+}
+

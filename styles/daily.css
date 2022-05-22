@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body{
+  background-color: rgb(35,38,40);
+}
+
+.searchDiv{
+  background-color: rgb(23,25,26);
+  height: 100px;
+  margin: -8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cityname{
+  background-color: rgb(40, 45, 48);
+  height: 40px;
+  font-size: 18px;
+  border: 0px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: white;
+  padding-left: 15px;
+}
+
+#cityname:focus {
+  outline: none;
+}
+
+#searchBtn {
+  height: 42px;
+  cursor: pointer;
+  font-size: 20px;
+  color: rgb(85, 85, 85);
+  border: 0;
+  background-color: rgb(40, 45, 48);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.menuDiv{
+  margin: -8px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuDiv>div{
+  border-bottom: 3px solid white;
+  width: 9%;
+}
+
+.menuDiv>div>span{
+  color: white;
+  font-size: 18px;
+  line-height: 45px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#subDiv{
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  gap: 20px;
+}
+
+#wdiv{
+  width: 11%;
+  background-color: rgb(23,25,26);
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+#wdiv:hover{
+  border: 1px solid white;
+}
+
+.wimg{
+  margin-left: 33px;
+}
+
+.week, .wdes, .wtemp{
+  color: white;
+  text-align: center;
+}
+
+#detailDiv{
+  border: 1px solid transparent;
+  width: 20%;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+#detailDiv{
+  background-color: rgb(23,25,26);
+}
+
+#detailDiv>div>p{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(114, 112, 112);
+}

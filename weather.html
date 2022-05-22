@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="weather.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="searchDiv">
+        <input type="text" id="cityname" />
+        <button id="searchBtn" onclick="getWeather()">
+          <i id="searchIcon" class="fa fa-search"></i>
+        </button>
+      </div>
+
+      <div class="menuDiv">
+        <div>
+          <span class="today" onclick="getW()">TODAY </span>
+          <span class="daily" onclick="getDailyData()">DAILY</span>
+        </div>
+      </div>
+
+      <div class="subDiv">
+        <div class="weatherDiv"></div>
+
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              width="600"
+              height="450"
+              style="border: 0"
+              id="gmap_canvas"
+              loading="lazy"
+              allowfullscreen
+              src=""
+            >
+            </iframe>
+            <!-- <iframe
+              width="600"
+              height="500"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=11&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe> -->
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="weather.js"></script>

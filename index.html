@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Weathy</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <div class="searchDiv">
+      <input type="text" id="cityname" />
+      <button id="searchBtn" onclick="getWeather()">
+        <i id="searchIcon" class="fa fa-search"></i>
+      </button>
+    </div>
+
+    <div class="menuDiv">
+      <div>
+        <span class="today" onclick="getToday()">TODAY </span>
+        <span class="daily"><a href="daily.html">DAILY</a></span>
+      </div>
+    </div>
+
+    <div class="subDiv">
+      <div class="weatherDiv"></div>
+
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe
+            width="600"
+            height="450"
+            style="border: 0"
+            id="gmap_canvas"
+            loading="lazy"
+            allowfullscreen
+            src=""
+          >
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./scripts/showData.js"></script>

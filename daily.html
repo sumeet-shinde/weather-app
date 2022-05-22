@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weathy</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./styles/daily.css" />
+  </head>
+  <body>
+    <div class="searchDiv">
+      <input type="text" id="cityname"/> 
+      <button id="searchBtn" onclick="getWeather()">
+        <i id="searchIcon" class="fa fa-search"></i> 
+      </button>
+    </div>
+
+    <div class="menuDiv">
+      <div>
+        <span class="today"><a href="index.html">TODAY </a></span>
+        <span class="daily">DAILY</span>
+      </div>
+    </div>
+
+    <div id="subDiv">
+      
+    </div>
+
+    <div id="detailDiv"></div>
+  </body>
+</html>
+<script src="./scripts/showDaily.js"></script>
